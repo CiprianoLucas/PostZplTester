@@ -11,7 +11,7 @@ uvicorn main:app --reload --port 4000
 ### Linux
 ```bash
 python3 -m venv venv
-source venv/Scripts/activate
+source venv/bin/activate
 pip install fastapi httpx uvicorn
 uvicorn main:app --reload --port 4000
 ```
